@@ -71,53 +71,31 @@ public class Calculator {
     }
 
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         printMenu();
         while (true) {
-            try {
-                System.out.println("Введите первое число или \"q\" для выхода: ");
-                String check = scanner.next();
-                if (check.equals("q")) {
+            float a = dopros(scanner, "Введите первое число или \"q\" для выхода: ");
+            String operator = operator(scanner);
+            float b = dopros(scanner, "Введите второе число или \"q\" для выхода: ");
+
+            Calculator calc = new Calculator(operator, a, b);
+
+            switch (operator) {
+                case "+":
+                    System.out.println("Результат: " + calc.sum(a, b));
                     break;
-                }
-                float a = Float.parseFloat(check);
-
-                System.out.println("Введите операцию (+, -, *, /) или \"q\" для выхода: ");
-                String operator = scanner.next();
-                if (operator.equals("q")) {
+                case "-":
+                    System.out.println("Результат: " + calc.subtraction(a, b));
                     break;
-                }
-
-
-                System.out.println("Введите второе число или \"q\" для выхода: ");
-                String q = scanner.next();
-                if (q.equals("q")) {
+                case "*":
+                    System.out.println("Результат: " + calc.multiplication(a, b));
                     break;
-                }
-                float b = Float.parseFloat(q);
-
-                Calculator calc = new Calculator(operator, a, b);
-
-                switch (operator) {
-                    case "+":
-                        System.out.println("Результат: " + calc.sum(a, b));
-                        break;
-                    case "-":
-                        System.out.println("Результат: " + calc.subtraction(a, b));
-                        break;
-                    case "*":
-                        System.out.println("Результат: " + calc.multiplication(a, b));
-                        break;
-                    case "/":
-                        System.out.println("Результат: " + calc.division(a, b));
-                        break;
-                    default:
-                        System.out.println("Ну ты совсем дурак?");
-                }
-            } catch (NumberFormatException e) {
-                System.out.println("Вводи нормально");
-            } catch (Exception e) {
-                System.out.println("Я еще держусь");
+                case "/":
+                    System.out.println("Результат: " + calc.division(a, b));
+                    break;
+                default:
+                    System.out.println("Ну ты совсем дурак?");
             }
         }
     }
@@ -130,5 +108,32 @@ public class Calculator {
         System.out.println("  • EXIT:     Введите [ q ]");
         System.out.println("------------------------------------------");
         System.out.println("👉");
+    }
+
+    private static float dopros(Scanner scanner, String message) {
+        while (true) {
+            System.out.println("Вводи уже");
+            String text = scanner.next();
+            if (text.equalsIgnoreCase("q")) System.exit(0);
+
+            try {
+                return Float.parseFloat(text);
+            } catch (Exception e) {
+                System.out.println("❌ Сэр, вы что, тупой? Это не число.");
+            }
+        }
+    }
+
+    private static String operator(Scanner scanner) {
+        while (true) {
+            System.out.println("Введите операцию (+, -, *, /) или \"q\" для выхода: ");
+            String op = scanner.next();
+            if (op.equalsIgnoreCase("q")) System.exit(0);
+            if (op.equals("+") || op.equals("-") || op.equals("*") || op.equals("/")) {
+                return op;
+            } else {
+                System.out.println("❌ Сэр, вы что, тупой? Это не операция.");
+            }
+        }
     }
 }
