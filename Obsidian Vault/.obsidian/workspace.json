@@ -8,49 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5523d60fd2e525e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "базовый класс Object +.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "базовый класс Object +"
-            }
-          },
-          {
-            "id": "0fd7283a1782a07e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Переменные/Ссылочные типы.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Ссылочные типы"
-            }
-          },
-          {
-            "id": "fabb307b09f81c1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Что такое конструктор.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Что такое конструктор"
-            }
-          },
-          {
-            "id": "9c3d4084cbb2c092",
+            "id": "efc3b0bed3d3c0ae",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -60,21 +18,132 @@
             }
           },
           {
-            "id": "87597e52a2929b7a",
+            "id": "faef63eec55590d2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Класс и Функции (методы)/Статичные методы.md",
+                "file": "Исключения/Что такое исключение.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Статичные методы"
+              "title": "Что такое исключение"
+            }
+          },
+          {
+            "id": "fd49855439daa306",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Исключения/Что такое исключение.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Что такое исключение"
+            }
+          },
+          {
+            "id": "d66e19332f4c6401",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Исключения/Иерархия исключений.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Иерархия исключений"
+            }
+          },
+          {
+            "id": "3301c0cdb39248b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Исключения/Что такое исключение.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Что такое исключение"
+            }
+          },
+          {
+            "id": "1f03cc17fbfc2914",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Переменные/Переменные в JAVA.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Переменные в JAVA"
+            }
+          },
+          {
+            "id": "d65531218ed1c901",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Строки и все связанное/Интернирование строк.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Интернирование строк"
+            }
+          },
+          {
+            "id": "218a4b4d55f7aecb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Строки и все связанное/Создание строк.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Создание строк"
+            }
+          },
+          {
+            "id": "9512bab9bdd93f2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Исключения/Что такое исключение.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Что такое исключение"
+            }
+          },
+          {
+            "id": "a2bfbb2102e5df2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Исключения/Обработка исключений (try-catch-finally и др).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Обработка исключений (try-catch-finally и др)"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +175,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "конка",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -236,36 +305,38 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "9c3d4084cbb2c092",
+  "active": "efc3b0bed3d3c0ae",
   "lastOpenFiles": [
-    "Класс и Функции (методы)/Что такое класс.md",
-    "базовый класс Object +.md",
-    "Полиморфизм.md",
-    "Что такое конструктор.md",
-    "Без названия.md",
-    "ООП",
-    "ООП/Что такое абстракция.md",
-    "Память в JAVA.md",
-    "Переменные/Инициализация.md",
+    "Исключения/Что такое исключение.md",
+    "Типы исключений.md",
+    "Дедупликация.md",
+    "Строки и все связанное/Производительность и оптимизация.md",
+    "Строки и все связанное/Ручное интернирование.md",
+    "Строки и все связанное/Создание строк с помощью конструктора.md",
+    "Исключения/Обработка исключений (try-catch-finally и др).md",
+    "Исключения/Проброс исключения.md",
+    "Исключения/Какими могу быть исключения.md",
+    "Строки и все связанное/Создание строк.md",
+    "Исключения/Иерархия исключений.md",
+    "Исключения",
     "Переменные/Переменная.md",
     "Переменные/Переменные в JAVA.md",
-    "Строки и все связанное/Immutable (неизменяемый).md",
-    "Класс и Функции (методы)/Статичные методы.md",
-    "Переменные/Константа.md",
-    "Переменные/Статическая переменная.md",
-    "Переменные/Переменные примитивного типа.md",
-    "Класс и Функции (методы)/Сигнатура функции(метода).md",
     "Переменные/Ссылочные типы.md",
+    "Переменные/Константа.md",
+    "Как работает дедупликация.md",
+    "Строки и все связанное/Интернирование строк.md",
+    "Строки и все связанное/Собственный пул строк.md",
+    "базовый класс Object +.md",
+    "Что такое конструктор.md",
+    "Память/Куча (Heap).md",
+    "Память",
+    "Полиморфизм.md",
+    "Переменные/Виды констант.md",
+    "Класс и Функции (методы)/Что такое класс.md",
+    "ООП",
+    "ООП/Что такое абстракция.md",
+    "Память/Память в JAVA.md",
     "Переменные",
-    "Строки и все связанное/Литералы.md",
-    "Класс и Функции (методы)/Методы length, charAt, concat, equals.md",
-    "Строки и все связанное/Создание строк.md",
-    "Строки и все связанное/StringBuilder.md",
-    "Строки и все связанное/Интерфейсы Serializable и CharSequence.md",
-    "Класс и Функции (методы)/Что такое объект.md",
-    "Класс и Функции (методы)/Функции (методы).md",
-    "Модификаторы доступа (private, public, protected, Default).md",
-    "Класс и Функции (методы)/Final класс.md",
     "Строки и все связанное",
     "Без названия.base",
     "Без названия.canvas",
